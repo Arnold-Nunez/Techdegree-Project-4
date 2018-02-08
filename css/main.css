@@ -1,0 +1,46 @@
+* {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Search box */
+#myInput {
+  display: block;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  margin:40px auto;
+  padding: 10px 200px 10px 10px;
+  text-align: left;
+  font-size: 1em;
+  color: grey;
+}
+
+/* Body */
+#myUL {
+  display: block;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Image Gallery */
+
+.thumb {
+  float: left;
+  width: 20%;
+  padding: 27px;
+}
+
+.lb-nav {
+  opacity: .3;
+}
+
+ul {
+  list-style: none;
+}
